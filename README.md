@@ -28,7 +28,7 @@ Regex is a simple set of components that, when used together, can give us the ab
 ### Anchors
 Anchors are denoted by the ^ and $ symbols, and will match if the searched characters exist at the beginning or end of an expression, respectively.
 
-Examples would work on the above paragraph (exlcluding this line):
+The below would match with the first and last words of the above:
 
 /^Anchors/g
 
@@ -53,12 +53,12 @@ Quantifiers can help you control how many of a characters you want to match with
 
 | is the 'or' operator.  This will match with either the preceding or the following character.
 
-Example: /(1|2){2}/g  will match with the following:
+Example: /(1|2){2}/g  will match with each of the following:
 
-11
-12
-21
-22
+11\
+12\
+21\
+22\
 
 ### Character Classes
 [a-z] will match with all lower case letters.
