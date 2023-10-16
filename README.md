@@ -75,7 +75,7 @@ Use ^ inside square braces for a negative match. [^A-Za-z0-9] will find all char
 
 ### Flags
 
-Flags can be used to specify how to search through a block of text. Colors are used for explanation purposes in the example.
+Flags can be used to specify how to search through a block of text. Highlighting, strange cases, and underlining used for explanation purposes in the example.
 
 end your regex with: 
 
