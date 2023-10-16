@@ -109,13 +109,13 @@ and
 
 ### Greedy and Lazy Match
 
-<ins><span style="color:yellow">"Greedy"</span> will match the longest instance of the searched string, and <span style="color:yellow">"lazy"</span></ins> will match the shortest. 
+<ins>`"Greedy"`</span> will match the longest instance of the searched string, and `"lazy"`</span></ins> will match the shortest. 
 
 Example:
 
 /".+"/g will match with the underlined text above. This will look for a quote, then look for .+ (which is the rest of the paragraph). Then, it will look backward from the last character in the paragraph to find another quote.
 
-/".+?"/g will match with the yellow text above. This will look for a quote, then look forward from the quote to find another character followed by a quote.
+/".+?"/g will match with the highlighted text above. This will look for a quote, then look forward from the quote to find another character followed by a quote.
 
 ### Boundaries
 
