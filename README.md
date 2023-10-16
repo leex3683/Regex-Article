@@ -85,8 +85,8 @@ m for a multiline <ins>search</ins>
 
 Example:
 
-/search$/g   would match with the underlined "search" above.
-/search$/gm  would match with both the underlined AND the highlighted "search" above.
+/search$/g   would match with the underlined "search" above.\
+/search$/gm  would match with both the underlined AND the highlighted "search" above.\
 /search$/gmi would match with all instances of "search" above.
 
 ### Grouping and Capturing
