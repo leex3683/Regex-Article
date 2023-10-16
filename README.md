@@ -1,4 +1,4 @@
-# Title (replace with your title)
+# Regex 101
 
 Welcome to my regex 101. This is a summary of the basic components of Regex.
 
