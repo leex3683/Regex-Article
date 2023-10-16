@@ -47,7 +47,7 @@ Quantifiers can help you control how many of a characters you want to match with
 
 {min,max} will match anything with the preceding character repeating no less than the min number of times, but no more than the max number of times. Omit 'max' to set your max to infinty.
 
-{n} will match when the preceding character repeat exactly n times. If an experession contains the character repeating more than n times, it will match on the first n characters in that expression. Examples of this: /s{2}/g  will find only the first 2 esses (which I've colored for clarity) in the expression "`ss`s"
+{n} will match when the preceding character repeat exactly n times. If an experession contains the character repeating more than n times, it will match on the first n characters in that expression. Examples of this: /s{2}/g  will find only the first 2 esses in the expression "sss"
 
 ### OR Operator
 
@@ -86,7 +86,7 @@ m for a multiline <ins>search</ins>
 Example:
 
 /search$/g   would match with the underlined "search" above.
-/search$/gm  would match with both the underlined AND the colored "search" above.
+/search$/gm  would match with both the underlined AND the highlighted "search" above.
 /search$/gmi would match with all instances of "search" above.
 
 ### Grouping and Capturing
