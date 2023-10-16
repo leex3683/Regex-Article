@@ -47,7 +47,7 @@ Quantifiers can help you control how many of a characters you want to match with
 
 {min,max} will match anything with the preceding character repeating no less than the min number of times, but no more than the max number of times. Omit 'max' to set your max to infinty.
 
-{n} will match when the preceding character repeat exactly n times. If an experession contains the character repeating more than n times, it will match on the first n characters in that expression. Examples of this: /s{2}/g  will find only the first 2 esses (which I've colored yellow for clarity) in the expression <span style="color:yellow">"ss</span>s"
+{n} will match when the preceding character repeat exactly n times. If an experession contains the character repeating more than n times, it will match on the first n characters in that expression. Examples of this: /s{2}/g  will find only the first 2 esses (which I've colored for clarity) in the expression "`ss`s"
 
 ### OR Operator
 
@@ -58,7 +58,7 @@ Example: /(1|2){2}/g  will match with each of the following:
 11\
 12\
 21\
-22\
+22
 
 ### Character Classes
 [a-z] will match with all lower case letters.
@@ -79,15 +79,15 @@ Flags can be used to specify how to search through a block of text. Colors are u
 
 end your regex with: 
 
-g to perform a global <span style="color:yellow">search</span>\
-i for a case insensitive <span style="color:pink">seArch</span>\
-m for a multiline <span style="color:green">search</span>
+g to perform a global `search`\
+i for a case insensitive seArch\
+m for a multiline <ins>search</ins>
 
 Example:
 
-/search$/g   would match with the green "search" above.
-/search$/gm  would match with both the green AND the yellow "search" above.
-/search$/gmi would match with all colors of "search" above.
+/search$/g   would match with the underlined "search" above.
+/search$/gm  would match with both the underlined AND the colored "search" above.
+/search$/gmi would match with all instances of "search" above.
 
 ### Grouping and Capturing
 
